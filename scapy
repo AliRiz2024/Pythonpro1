@@ -1,0 +1,12 @@
+# this file is created to use scapy tool
+# use following command to scan packets
+# for 10 packets
+    resutls = sniff(count=10)
+#above command will sniff 10 packets
+
+    resutls.show()
+# above command will show the all packets sniffed
+    results[4].show()
+# above command will show the details of packet which is at index no 4
+# details as
+  # protocol, mac addresses. ip addresses, type, port, packet data etc
